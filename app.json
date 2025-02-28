@@ -1,0 +1,13 @@
+{
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "ruby main.rb"
+      },
+      "buildpacks": [
+        { "url": "heroku-community/chrome-for-testing" },
+        { "url": "heroku/ruby" }
+      ]
+    }
+  }
+}
